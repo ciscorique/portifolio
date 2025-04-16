@@ -14,11 +14,11 @@
             border-bottom: 1px solid #333;
             background-color: rgba(0, 0, 0, 0.1);
         }
-        header div {
+        .links {
             text-align: center;
         
         }
-        header div a {
+        .links a {
             color: white;
             font-size: 20px;
             line-height: 30px;
@@ -28,7 +28,7 @@
             font-weight: 400;
             font-style: normal;
         }
-        header div a:hover {
+        .links a:hover {
             color: violet;
             transition: color 700ms;
         }
@@ -76,33 +76,7 @@
             border-bottom: 3px solid var(--subcor);
             background-color: rgba(0, 0, 0, 0.1);
         }
-
-        .links{
-            text-align: center;
-        }
-        .links a {
-            color: white;
-            font-size: 20px;
-            line-height: 30px;
-            margin: 30px;
-            text-decoration: none;
-        }
-        .links a:hover {
-            color: var(--subcor);
-            transition: 600ms;
-            font-size: 23px;
-        }
-
-        #box h1 {
-            padding: 4px
-        }
-        #box h2 {
-            padding: 10px;
-        }
-        #box a {
-            color: var(--subcor);
-            transition: 600ms;
-        }
+l
         #linksFooter {
             padding-top: 8px;
         }
@@ -111,29 +85,29 @@
             font-weight: 400;
             font-style: normal;
         }
-        footer {
+        .footer {
             padding: 32px;
             border-bottom:0px solid #333;
             background-color: rgba(0, 0, 0, 0.1);
         }
-        footer div {
+        .footer div {
             text-align: center;
         }
-        footer div a {
+        .footer div a {
             color: white;
             font-size: 20px;
             line-height: 30px;
-            margin: 0 160px;
+            margin: 0 30px;
             text-decoration: none;
             font-family: "Boldonse", system-ui;
             font-weight: 400;
             font-style: normal;
         }
-        footer div a:hover {
+        .footer div a:hover {
             color: violet;
             transition: color 700ms;
         }
-        footer {
+        .footer {
             padding: 32px;
             border-top: 3px solid var(--subcor);
             background-color: rgba(0, 0, 0, 0.1);
